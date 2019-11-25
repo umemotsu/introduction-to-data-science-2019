@@ -41,6 +41,6 @@ themeVariant = ""
 home = ["HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> 演習リポジトリ"
+name = "<i class='fab fa-fw fa-github'></i> Repository for Exercise"
 url = "https://github.com/umemotsu/introduction-to-data-science"
 weight = 1
