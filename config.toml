@@ -1,3 +1,17 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+defaultContentLanguage = "en"
+title = "Hugo Learn Documentation"
+theme = "hugo-theme-learn"
+metaDataFormat = "yaml"
+
+[params]
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "Documentation for Hugo Learn Theme"
+  author = "Mathieu Cornic"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
