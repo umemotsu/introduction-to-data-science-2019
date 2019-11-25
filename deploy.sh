@@ -6,7 +6,7 @@ SCRIPT_DIR=$(cd $(dirname $0); pwd)
 if [ $# -eq 1 ]; then
   COMMIT_MSG="$1"
 else
-  COMMIT_MSG="Automatic deployment."
+  COMMIT_MSG="Automatic deployment"
 fi
 
 if [ "${CURRENT_DIR}" != "${SCRIPT_DIR}" ]; then
