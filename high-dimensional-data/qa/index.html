@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ja" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.58.3" />
+    <meta name="description" content="Introduction to Data Science (2019)">
+<meta name="author" content="Kazutoshi Umemoto">
+
+    <link rel="icon" href="/introduction-to-data-science-2019/images/favicon.png" type="image/png">
+
+    <title>Q&amp;A :: データサイエンス概論（2019）</title>
+
+    
+    <link href="/introduction-to-data-science-2019/css/nucleus.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/fontawesome-all.min.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/hybrid.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/featherlight.min.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/perfect-scrollbar.min.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/auto-complete.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/atom-one-dark-reasonable.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/theme.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/hugo-theme.css?1574703111" rel="stylesheet">
+    
+
+    <script src="/introduction-to-data-science-2019/js/jquery-3.3.1.min.js?1574703111"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<link href="/introduction-to-data-science-2019/css/custom.css" rel="stylesheet">
+
+  </head>
+  <body class="" data-url="/introduction-to-data-science-2019/high-dimensional-data/qa/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://umemotsu.github.io/introduction-to-data-science-2019/">
+	Introduction to Data Science
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="検索...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/introduction-to-data-science-2019/js/lunr.min.js?1574703111"></script>
+<script type="text/javascript" src="/introduction-to-data-science-2019/js/auto-complete.js?1574703111"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/umemotsu.github.io\/introduction-to-data-science-2019\/";
+    
+</script>
+<script type="text/javascript" src="/introduction-to-data-science-2019/js/search.js?1574703111"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/" title="高次元データ" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/introduction-to-data-science-2019/high-dimensional-data/">
+          <b>3. </b>High Dimensional Data
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/lecture/" title="講義" class="dd-item ">
+        <a href="/introduction-to-data-science-2019/high-dimensional-data/lecture/">
+        Lecture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/qa/" title="Q&amp;A" class="dd-item active">
+        <a href="/introduction-to-data-science-2019/high-dimensional-data/qa/">
+        Q&amp;A
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction-to-data-science-2019/latent-variable/" title="潜在変数" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/introduction-to-data-science-2019/latent-variable/">
+          <b>6. </b>Latent Variable
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction-to-data-science-2019/latent-variable/lecture/" title="講義" class="dd-item ">
+        <a href="/introduction-to-data-science-2019/latent-variable/lecture/">
+        Lecture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='このページを編集' href="https://github.com/umemotsu/introduction-to-data-science-2019/edit/master/content/high-dimensional-data/qa/index.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">このページを編集</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/introduction-to-data-science-2019/'>データサイエンス概論（2019）</a> > <a href='/introduction-to-data-science-2019/high-dimensional-data/'>高次元データ</a> > Q&A
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#主成分分析について">主成分分析について</a>
+<ul>
+<li><a href="#説明が速くて-p17の数式が追えなかった">説明が速くて、P17の数式が追えなかった。</a></li>
+<li><a href="#特徴量が正規分布に従う-という仮定が存在する">「特徴量が正規分布に従う」という仮定が存在する？</a></li>
+</ul></li>
+<li><a href="#こんな話が聞きたい">こんな話が聞きたい</a>
+<ul>
+<li><a href="#情報検索-information-retrieval-ir-に関する話題">情報検索（Information Retrieval; IR）に関する話題</a></li>
+<li><a href="#統計的-因果推論">（統計的？）因果推論</a></li>
+<li><a href="#勾配ブースティング">勾配ブースティング</a></li>
+<li><a href="#kaggleで使える実践的なテクニック">Kaggleで使える実践的なテクニック</a></li>
+<li><a href="#現場で起きた話">現場で起きた話</a></li>
+</ul></li>
+<li><a href="#データサイエンス">データサイエンス</a>
+<ul>
+<li><a href="#お薦めのサイトや書籍">お薦めのサイトや書籍</a></li>
+<li><a href="#便利なツール">便利なツール</a></li>
+<li><a href="#これをすべし">これをすべし</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Q&amp;A
+            </h1>
+          
+
+        
+
+
+
+
+
+<h2 id="主成分分析について">主成分分析について</h2>
+
+<h3 id="説明が速くて-p17の数式が追えなかった">説明が速くて、P17の数式が追えなかった。</h3>
+
+<p>次回の講義で簡単におさらいと補足をします。</p>
+
+<h3 id="特徴量が正規分布に従う-という仮定が存在する">「特徴量が正規分布に従う」という仮定が存在する？</h3>
+
+<p>正規分布に従っていないデータでも計算は可能ですが、うまく分解ができないこともあります。これも次回に補足します。</p>
+
+<h2 id="こんな話が聞きたい">こんな話が聞きたい</h2>
+
+<h3 id="情報検索-information-retrieval-ir-に関する話題">情報検索（Information Retrieval; IR）に関する話題</h3>
+
+<p>ところどころに混ぜたいと思います。</p>
+
+<h3 id="統計的-因果推論">（統計的？）因果推論</h3>
+
+<p>私もよく分かっていません。<a href="https://www.asakura.co.jp/books/isbn/978-4-254-12241-1/">この本</a>を読んで勉強しています。</p>
+
+<p>ちなみに、IRの最近の研究の1つに、反事実的推論を用いて位置バイアスを含むクリックログからバイアスのないランキングを学習するというものがあります。<sup class="footnote-ref" id="fnref:Joachims-2017"><a href="#fn:Joachims-2017">1</a></sup></p>
+
+<h3 id="勾配ブースティング">勾配ブースティング</h3>
+
+<p>これも詳しく知りません。興味のある人は<a href="https://www.slideshare.net/itakigawa/ss-77062106">このあたり</a>を眺めてみると良いかもしれません。</p>
+
+<p>ちなみに、IR分野でも少し前までは、ランキング学習手法といえば勾配ブースティングに基づくLambdaMARTという印象でした。<sup class="footnote-ref" id="fnref:Burges-2010"><a href="#fn:Burges-2010">2</a></sup></p>
+
+<h3 id="kaggleで使える実践的なテクニック">Kaggleで使える実践的なテクニック</h3>
+
+<p>参加したことないのでよく分かりません。ただ、上記の勾配ブースティングがよく使われるイメージはあります。</p>
+
+<h3 id="現場で起きた話">現場で起きた話</h3>
+
+<p>現場というわけではないですが、データ解析に関する実体験を次回に少し紹介します。</p>
+
+<h2 id="データサイエンス">データサイエンス</h2>
+
+<h3 id="お薦めのサイトや書籍">お薦めのサイトや書籍</h3>
+
+<p>あまり読まないのでよく知りません。方法論を知りたいのであれば、機械学習・統計・データマイニング・データベースなどの良書や解説サイトは豊富にあるので、それらを見てみるのも良いかと思います。</p>
+
+<p>あとは、Kaggleのコンペに参加したり、企業インターンシップに行ったりして、あるいは自分の研究を通じて、実データにたくさん触れるのが大事だと思います。</p>
+
+<h3 id="便利なツール">便利なツール</h3>
+
+<p>粗いレベルで言えば、Python＋定番の汎用ライブラリ＋対象タスクに特化したライブラリという組み合わせ？</p>
+
+<h3 id="これをすべし">これをすべし</h3>
+
+<p>上にも書いたように、実データにたくさん触れること。学んだ手法を適用するのも良いけど、高い精度を得ることだけを目的とするのでなく、その背後で何が起きているのか等をよく考えること。関連する話として、国際会議<a href="https://sigmod2019.org/">SIGMOD2019</a>のキーノート「Responsible Data Science
+」を次回の講義で少し紹介します。</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:Joachims-2017">Thorsten Joachims, Adith Swaminathan, and Tobias Schnabel. 2017. Unbiased Learning-to-Rank with Biased Feedback. In Proceedings of the Tenth ACM International Conference on Web Search and Data Mining (WSDM &lsquo;17). ACM, New York, NY, USA, 781-789. DOI: <a href="https://doi.org/10.1145/3018661.3018699">https://doi.org/10.1145/3018661.3018699</a>
+ <a class="footnote-return" href="#fnref:Joachims-2017"><sup>[return]</sup></a></li>
+<li id="fn:Burges-2010">Chris J.C. Burges. 2010. From RankNet to LambdaRank to LambdaMART: An Overview. Microsoft Research Technical Report MSR-TR-2010-82. URL: <a href="https://www.microsoft.com/en-us/research/publication/from-ranknet-to-lambdarank-to-lambdamart-an-overview/">https://www.microsoft.com/en-us/research/publication/from-ranknet-to-lambdarank-to-lambdamart-an-overview/</a>
+ <a class="footnote-return" href="#fnref:Burges-2010"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/introduction-to-data-science-2019/high-dimensional-data/lecture/" title="講義"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/introduction-to-data-science-2019/latent-variable/" title="潜在変数" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/introduction-to-data-science-2019/js/clipboard.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/perfect-scrollbar.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/perfect-scrollbar.jquery.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/jquery.sticky.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/featherlight.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/highlight.pack.js?1574703111"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/introduction-to-data-science-2019/js/modernizr.custom-3.6.0.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/learn.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/hugo-learn.js?1574703111"></script>
+
+    <link href="/introduction-to-data-science-2019/mermaid/mermaid.css?1574703111" rel="stylesheet" />
+    <script src="/introduction-to-data-science-2019/mermaid/mermaid.js?1574703111"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+        {left: "$", right: "$", display: false},
+        {left: "\\(", right: "\\)", display: false}
+      ]
+    });
+  });
+</script>
+
+  </body>
+</html>
+

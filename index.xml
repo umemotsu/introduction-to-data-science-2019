@@ -6,9 +6,37 @@
     <description>Recent content on データサイエンス概論（2019）</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
+    <lastBuildDate>Tue, 26 Nov 2019 02:12:33 +0900</lastBuildDate>
     
 	<atom:link href="https://umemotsu.github.io/introduction-to-data-science-2019/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>講義</title>
+      <link>https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/lecture/</link>
+      <pubDate>Tue, 26 Nov 2019 02:01:40 +0900</pubDate>
+      
+      <guid>https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/lecture/</guid>
+      <description>スライド 添付 slides.pdf (29431 ko) 演習 GitHubリポジトリに、トピックモデルを用いた潜在変数の推定・分析のためのコードが置いてあります。 アンケート Goog</description>
+    </item>
+    
+    <item>
+      <title>講義</title>
+      <link>https://umemotsu.github.io/introduction-to-data-science-2019/high-dimensional-data/lecture/</link>
+      <pubDate>Mon, 25 Nov 2019 22:21:12 +0900</pubDate>
+      
+      <guid>https://umemotsu.github.io/introduction-to-data-science-2019/high-dimensional-data/lecture/</guid>
+      <description>スライド 添付 slides.pdf (5858 ko) 演習 GitHubリポジトリに、主成分分析、t-SNE、UMAPを用いた高次元データの解析コードが置いてあります。 アンケート</description>
+    </item>
+    
+    <item>
+      <title>Q&amp;A</title>
+      <link>https://umemotsu.github.io/introduction-to-data-science-2019/high-dimensional-data/qa/</link>
+      <pubDate>Mon, 25 Nov 2019 22:27:38 +0900</pubDate>
+      
+      <guid>https://umemotsu.github.io/introduction-to-data-science-2019/high-dimensional-data/qa/</guid>
+      <description>主成分分析について 説明が速くて、P17の数式が追えなかった。 次回の講義で簡単におさらいと補足をします。 「特徴量が正規分布に従う」という仮定が</description>
+    </item>
     
   </channel>
 </rss>

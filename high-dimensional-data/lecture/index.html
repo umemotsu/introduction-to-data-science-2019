@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ja" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.58.3" />
+    <meta name="description" content="Introduction to Data Science (2019)">
+<meta name="author" content="Kazutoshi Umemoto">
+
+    <link rel="icon" href="/introduction-to-data-science-2019/images/favicon.png" type="image/png">
+
+    <title>講義 :: データサイエンス概論（2019）</title>
+
+    
+    <link href="/introduction-to-data-science-2019/css/nucleus.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/fontawesome-all.min.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/hybrid.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/featherlight.min.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/perfect-scrollbar.min.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/auto-complete.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/atom-one-dark-reasonable.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/theme.css?1574703111" rel="stylesheet">
+    <link href="/introduction-to-data-science-2019/css/hugo-theme.css?1574703111" rel="stylesheet">
+    
+
+    <script src="/introduction-to-data-science-2019/js/jquery-3.3.1.min.js?1574703111"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<link href="/introduction-to-data-science-2019/css/custom.css" rel="stylesheet">
+
+  </head>
+  <body class="" data-url="/introduction-to-data-science-2019/high-dimensional-data/lecture/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://umemotsu.github.io/introduction-to-data-science-2019/">
+	Introduction to Data Science
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="検索...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/introduction-to-data-science-2019/js/lunr.min.js?1574703111"></script>
+<script type="text/javascript" src="/introduction-to-data-science-2019/js/auto-complete.js?1574703111"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/umemotsu.github.io\/introduction-to-data-science-2019\/";
+    
+</script>
+<script type="text/javascript" src="/introduction-to-data-science-2019/js/search.js?1574703111"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/" title="高次元データ" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/introduction-to-data-science-2019/high-dimensional-data/">
+          <b>3. </b>High Dimensional Data
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/lecture/" title="講義" class="dd-item active">
+        <a href="/introduction-to-data-science-2019/high-dimensional-data/lecture/">
+        Lecture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/qa/" title="Q&amp;A" class="dd-item ">
+        <a href="/introduction-to-data-science-2019/high-dimensional-data/qa/">
+        Q&amp;A
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction-to-data-science-2019/latent-variable/" title="潜在変数" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/introduction-to-data-science-2019/latent-variable/">
+          <b>6. </b>Latent Variable
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction-to-data-science-2019/latent-variable/lecture/" title="講義" class="dd-item ">
+        <a href="/introduction-to-data-science-2019/latent-variable/lecture/">
+        Lecture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='このページを編集' href="https://github.com/umemotsu/introduction-to-data-science-2019/edit/master/content/high-dimensional-data/lecture/index.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">このページを編集</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/introduction-to-data-science-2019/'>データサイエンス概論（2019）</a> > <a href='/introduction-to-data-science-2019/high-dimensional-data/'>高次元データ</a> > 講義
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#スライド">スライド</a></li>
+<li><a href="#演習">演習</a></li>
+<li><a href="#アンケート">アンケート</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              講義
+            </h1>
+          
+
+        
+
+
+
+
+
+<h2 id="スライド">スライド</h2>
+
+
+<section class="attachments grey">
+	<label>
+		<i class="fas fa-paperclip" aria-hidden="true"></i>
+		添付
+	</label>
+	
+		
+	
+	<div class="attachments-files">
+	
+		
+		
+			<li>
+				<a href="/introduction-to-data-science-2019/high-dimensional-data/lecture/files/slides.pdf" >
+					slides.pdf
+				</a>
+				(5858 ko)
+			</li>
+		
+	
+	<div>
+	
+</section>
+
+
+
+<h2 id="演習">演習</h2>
+
+<p><a href="https://github.com/umemotsu/introduction-to-data-science/tree/master/03">GitHubリポジトリ</a>に、主成分分析、t-SNE、UMAPを用いた高次元データの解析コードが置いてあります。</p>
+
+<h2 id="アンケート">アンケート</h2>
+
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeD1e5PzXBUcFqB_K1yuZILSPBgw1N2zxxsxaR95WCCqXVgvw/viewform?usp=sf_link">Googleフォーム</a>でフィードバックをください。どんなことでも構いません。</p>
+
+<ul>
+<li>内容が簡単すぎた／難しすぎた</li>
+<li>説明が雑すぎた／細かすぎた</li>
+<li>どうでも良い話が多い</li>
+<li>あそこが分からなかった</li>
+<li>次回にあの話をしてほしい</li>
+<li>…</li>
+</ul>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/introduction-to-data-science-2019/high-dimensional-data/" title="高次元データ"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/introduction-to-data-science-2019/high-dimensional-data/qa/" title="Q&amp;A" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/introduction-to-data-science-2019/js/clipboard.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/perfect-scrollbar.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/perfect-scrollbar.jquery.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/jquery.sticky.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/featherlight.min.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/highlight.pack.js?1574703111"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/introduction-to-data-science-2019/js/modernizr.custom-3.6.0.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/learn.js?1574703111"></script>
+    <script src="/introduction-to-data-science-2019/js/hugo-learn.js?1574703111"></script>
+
+    <link href="/introduction-to-data-science-2019/mermaid/mermaid.css?1574703111" rel="stylesheet" />
+    <script src="/introduction-to-data-science-2019/mermaid/mermaid.js?1574703111"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+        {left: "$", right: "$", display: false},
+        {left: "\\(", right: "\\)", display: false}
+      ]
+    });
+  });
+</script>
+
+  </body>
+</html>
+
