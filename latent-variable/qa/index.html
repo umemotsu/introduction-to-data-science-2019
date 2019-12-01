@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/introduction-to-data-science-2019/images/favicon.png" type="image/png">
 
-    <title>講義 :: データサイエンス概論（2019）</title>
+    <title>Q&amp;A :: データサイエンス概論（2019）</title>
 
     
     <link href="/introduction-to-data-science-2019/css/nucleus.css?1575181438" rel="stylesheet">
@@ -35,7 +35,7 @@
 <link href="/introduction-to-data-science-2019/css/custom.css" rel="stylesheet">
 
   </head>
-  <body class="" data-url="/introduction-to-data-science-2019/high-dimensional-data/lecture/">
+  <body class="" data-url="/introduction-to-data-science-2019/latent-variable/qa/">
     <nav id="sidebar" class="">
 
 
@@ -62,7 +62,7 @@
   
     
     <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/" title="高次元データ" class="dd-item 
-        parent
+        
         
         
         ">
@@ -86,7 +86,7 @@
  
   
     
-      <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/lecture/" title="講義" class="dd-item active">
+      <li data-nav-id="/introduction-to-data-science-2019/high-dimensional-data/lecture/" title="講義" class="dd-item ">
         <a href="/introduction-to-data-science-2019/high-dimensional-data/lecture/">
         Lecture
         
@@ -132,7 +132,7 @@
   
     
     <li data-nav-id="/introduction-to-data-science-2019/latent-variable/" title="潜在変数" class="dd-item 
-        
+        parent
         
         
         ">
@@ -175,7 +175,7 @@
  
   
     
-      <li data-nav-id="/introduction-to-data-science-2019/latent-variable/qa/" title="Q&amp;A" class="dd-item ">
+      <li data-nav-id="/introduction-to-data-science-2019/latent-variable/qa/" title="Q&amp;A" class="dd-item active">
         <a href="/introduction-to-data-science-2019/latent-variable/qa/">
         Q&amp;A
         
@@ -255,7 +255,7 @@
             
           
           
-            <a href='/introduction-to-data-science-2019/'>データサイエンス概論（2019）</a> > <a href='/introduction-to-data-science-2019/high-dimensional-data/'>高次元データ</a> > 講義
+            <a href='/introduction-to-data-science-2019/'>データサイエンス概論（2019）</a> > <a href='/introduction-to-data-science-2019/latent-variable/'>潜在変数</a> > Q&A
           
          
           
@@ -272,9 +272,25 @@
 <ul>
 <li>
 <ul>
-<li><a href="#スライド">スライド</a></li>
-<li><a href="#演習">演習</a></li>
-<li><a href="#アンケート">アンケート</a></li>
+<li><a href="#座学全般">座学全般</a>
+<ul>
+<li><a href="#最初の話のスピードが速すぎて追いつくのがつらい">最初の話のスピードが速すぎて追いつくのがつらい</a></li>
+<li><a href="#例が豊富で分かりやすかった">例が豊富で分かりやすかった</a></li>
+</ul></li>
+<li><a href="#トピックモデル">トピックモデル</a>
+<ul>
+<li><a href="#トピックモデルのトピック数はどのように決定すればいい">トピックモデルのトピック数はどのように決定すればいい？</a></li>
+</ul></li>
+<li><a href="#確率的投薬モデル">確率的投薬モデル</a>
+<ul>
+<li><a href="#トピックモデルにおけるトピックは-このモデルでは疾患に対応している">トピックモデルにおけるトピックは、このモデルでは疾患に対応している？</a></li>
+<li><a href="#グラフィカルモデル中の-d-rn-と-n-r-は何を意味している">グラフィカルモデル中の$d_{rn}$と$N_{r}$は何を意味している？</a></li>
+</ul></li>
+<li><a href="#演習全般">演習全般</a>
+<ul>
+<li><a href="#コードが分からなくても簡単に理解できる">コードが分からなくても簡単に理解できる</a></li>
+<li><a href="#各自で作業する感じの方が楽しいかも">各自で作業する感じの方が楽しいかも</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -293,7 +309,7 @@
           
             <h1>
               
-              講義
+              Q&amp;A
             </h1>
           
 
@@ -303,51 +319,71 @@
 
 
 
-<h2 id="スライド">スライド</h2>
+<h2 id="座学全般">座学全般</h2>
 
+<h3 id="最初の話のスピードが速すぎて追いつくのがつらい">最初の話のスピードが速すぎて追いつくのがつらい</h3>
 
-<section class="attachments grey">
-	<label>
-		<i class="fas fa-paperclip" aria-hidden="true"></i>
-		添付
-	</label>
-	
-		
-	
-	<div class="attachments-files">
-	
-		
-		
-			<li>
-				<a href="/introduction-to-data-science-2019/high-dimensional-data/lecture/files/slides.pdf" >
-					slides.pdf
-				</a>
-				(5858 ko)
-			</li>
-		
-	
-	<div>
-	
-</section>
+<p>すみません。インタラプトがないと早口になりがちなので、追いつけなくなったら止めてください。</p>
 
+<h3 id="例が豊富で分かりやすかった">例が豊富で分かりやすかった</h3>
 
+<p>この講義は概論なので、手法の細部よりも、それがどういう目的が使われるか、どう振る舞うのかを大まかに理解してもらえれば十分なのかと思っています。次回も引き続き、例を多めに説明する予定です。</p>
 
-<h2 id="演習">演習</h2>
+<h2 id="トピックモデル">トピックモデル</h2>
 
-<p><a href="https://github.com/umemotsu/introduction-to-data-science/tree/master/03">GitHubリポジトリ</a>に、主成分分析、t-SNE、UMAPを用いた高次元データの解析コードが置いてあります。</p>
+<h3 id="トピックモデルのトピック数はどのように決定すればいい">トピックモデルのトピック数はどのように決定すればいい？</h3>
 
-<h2 id="アンケート">アンケート</h2>
+<p>タスクの種類やデータセットの大きさによって適切なトピック数は異なるので、その値を決定するのは重要な問題です。</p>
 
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeD1e5PzXBUcFqB_K1yuZILSPBgw1N2zxxsxaR95WCCqXVgvw/viewform?usp=sf_link">Googleフォーム</a>でフィードバックをください。どんなことでも構いません。</p>
+<p>一つの方法として、perplexityと呼ばれる評価指標を使うことができます。Perplexityの定義は次回に説明しますが、直感的にはこの値は予測対象の単語を何候補まで絞り込めるかを表しており、低いほど（この指標において）良いモデルということができます。この指標を用いた場合の手順は、</p>
+
+<ol>
+<li>事前にデータセットを訓練用・開発用・テスト用に分割する</li>
+<li>ハイパーパラメータ（トピック数など）を変えながら訓練データを用いて複数のモデルを学習する</li>
+<li>開発用データにおけるperplexityの値が最良となるモデルを選択する。</li>
+</ol>
+
+<p>となります。開発用データを準備せず、訓練用とテスト用の2つに分けて、ハイパーパラメータを決定することもできますが、その場合、テスト用データにオーバーフィッティングする可能性があります。</p>
+
+<p>別の評価指標として、coherence<sup class="footnote-ref" id="fnref:Newman-2010"><a href="#fn:Newman-2010">1</a></sup>と呼ばれるものもあります。Perplexityが汎化能力（未知データに対する予測性能）を測るのに対して、coherenceは学習された各トピックにおける頻出単語の一貫性を所与の単語間類似度関数を用いて評価します。これも次回に簡単に紹介しますが、Wikipediaから学習した自己相互情報量（Pointwise Mutual Information; PMI）を単語間類似度として用いる方法が、人手による判定結果との相関が最も高いと報告されています。</p>
+
+<p>LDAによる学習結果を別のタスクに利用する場合は、そのタスクにおける性能をモデルの良さとして評価できます。例えば、文書のカテゴリ分類という問題に対して、LDAによって学習したトピック分布を各文書の特徴ベクトルとして、SVMなどの分類モデルを学習することが1つのアプローチとして考えられます。この場合は、perplexityの時と同様に、開発 or テスト用の文書集合を用意して、それらに対する分類精度を比較することで、当該問題に最適なLDAモデルのトピック数を決定することができます。</p>
+
+<p>より発展的な話題として、学習時にはトピック数を設定せず、データから最適な値を自動で学習するという方法も研究されています。このような「無限次元空間における統計モデル」（これは厳密な説明ではないかもしれません）はノンパラメトリックベイズモデルと呼ばれます。既存のトピックを割り当てるか、新規にトピックを作るかを決める方法の一つとして、中華料理店過程（Chinese Restaurant Process; CRP）と呼ばれる確率過程が存在します。ノンパラメトリックベイズに興味のある人は、<a href="https://www.kspub.co.jp/book/detail/1529151.html">この本</a>が参考になるかもしれません。</p>
+
+<h2 id="確率的投薬モデル">確率的投薬モデル</h2>
+
+<h3 id="トピックモデルにおけるトピックは-このモデルでは疾患に対応している">トピックモデルにおけるトピックは、このモデルでは疾患に対応している？</h3>
+
+<p>そうです。より正確に言うと、このモデルの潜在変数である$z_{rl}$は、$r$番目のレセプトにおいて$l$番目に処方された医薬品$m_{rl}$の対象が、当該レセプトにおいて診断された全疾患$\{d_{rn}\}_{n=1}^{N_{r}}$のうち、どれに対応するかを表しています。</p>
+
+<h3 id="グラフィカルモデル中の-d-rn-と-n-r-は何を意味している">グラフィカルモデル中の$d_{rn}$と$N_{r}$は何を意味している？</h3>
+
+<p>それぞれ以下のとおりです。</p>
 
 <ul>
-<li>内容が簡単すぎた／難しすぎた</li>
-<li>説明が雑すぎた／細かすぎた</li>
-<li>どうでも良い話が多い</li>
-<li>あそこが分からなかった</li>
-<li>次回にあの話をしてほしい</li>
-<li>…</li>
+<li>$d_{rn}$: $r$番目のレセプトにおいて$n$番目に診断された疾患</li>
+<li>$N_{r}$: $r$番目のレセプトにおいて診断された疾患の数</li>
 </ul>
+
+<h2 id="演習全般">演習全般</h2>
+
+<h3 id="コードが分からなくても簡単に理解できる">コードが分からなくても簡単に理解できる</h3>
+
+<p>座学で説明した手法を実際に適用したらどうなるかを分かってもらうのが演習の大事な目標の1つなので、次回も適用事例のノートブックを1つは準備したいと思います。</p>
+
+<h3 id="各自で作業する感じの方が楽しいかも">各自で作業する感じの方が楽しいかも</h3>
+
+<p>特にプログラミングに慣れている人にとってはこういうニーズもあると思いますので、次回は手を動かしてもらう課題も用意しようかと思います。</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:Newman-2010">David Newman, Jey Han Lau, Karl Grieser, and Timothy Baldwin. 2010. Automatic evaluation of topic coherence. In Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics (HLT &lsquo;10). Association for Computational Linguistics, Stroudsburg, PA, USA, 100-108.
+ <a class="footnote-return" href="#fnref:Newman-2010"><sup>[return]</sup></a></li>
+</ol>
+</div>
 
 
 <footer class=" footline" >
@@ -386,58 +422,8 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                         
                         
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -467,6 +453,59 @@
             
             
                 
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -491,10 +530,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/introduction-to-data-science-2019/high-dimensional-data/" title="高次元データ"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/introduction-to-data-science-2019/latent-variable/lecture/" title="講義"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/introduction-to-data-science-2019/high-dimensional-data/qa/" title="Q&amp;A" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/introduction-to-data-science-2019/latent-variable/lecture/" title="講義" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

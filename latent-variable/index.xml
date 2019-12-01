@@ -20,5 +20,14 @@
       <description>スライド 添付 slides.pdf (29431 ko) 演習 GitHubリポジトリに、トピックモデルを用いた潜在変数の推定・分析のためのコードが置いてあります。 アンケート Goog</description>
     </item>
     
+    <item>
+      <title>Q&amp;A</title>
+      <link>https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/qa/</link>
+      <pubDate>Sun, 01 Dec 2019 13:17:57 +0900</pubDate>
+      
+      <guid>https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/qa/</guid>
+      <description>座学全般 最初の話のスピードが速すぎて追いつくのがつらい すみません。インタラプトがないと早口になりがちなので、追いつけなくなったら止めてくださ</description>
+    </item>
+    
   </channel>
 </rss>
