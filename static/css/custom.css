@@ -9,3 +9,7 @@ a#logo {
 h1, h2 {
   font-weight: bold;
 }
+
+#chapter p {
+  text-align: left;
+}
