@@ -42,5 +42,5 @@ home = ["HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Repository for Exercise"
-url = "https://github.com/umemotsu/introduction-to-data-science"
+url = "https://github.com/umemotsu/introduction-to-data-science-2019-excercise"
 weight = 1

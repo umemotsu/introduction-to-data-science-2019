@@ -11,7 +11,7 @@ weight: 1
 
 ## 演習
 
-[GitHubリポジトリ](https://github.com/umemotsu/introduction-to-data-science/tree/master/03)に、主成分分析、t-SNE、UMAPを用いた高次元データの解析コードが置いてあります。
+[GitHubリポジトリ](https://github.com/umemotsu/introduction-to-data-science-2019-excercise/tree/master/03)に、主成分分析、t-SNE、UMAPを用いた高次元データの解析コードが置いてあります。
 
 ## アンケート
 

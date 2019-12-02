@@ -11,7 +11,7 @@ weight: 1
 
 ## 演習
 
-[GitHubリポジトリ](https://github.com/umemotsu/introduction-to-data-science/tree/master/08)に、グラフデータの解析コードが置いてあります。
+[GitHubリポジトリ](https://github.com/umemotsu/introduction-to-data-science-2019-excercise/tree/master/08)に、グラフデータの解析コードが置いてあります。
 
 ## アンケート
 
