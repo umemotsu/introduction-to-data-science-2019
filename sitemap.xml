@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/lecture/</loc>
+    <lastmod>2019-12-01T15:32:13+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://umemotsu.github.io/introduction-to-data-science-2019/</loc>
     <lastmod>2019-11-26T02:12:33+09:00</lastmod>
   </url>
@@ -15,6 +20,11 @@
   <url>
     <loc>https://umemotsu.github.io/introduction-to-data-science-2019/high-dimensional-data/lecture/</loc>
     <lastmod>2019-11-25T22:21:12+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/qa/</loc>
+    <lastmod>2019-12-01T16:01:08+09:00</lastmod>
   </url>
   
   <url>
@@ -35,6 +45,11 @@
   <url>
     <loc>https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/</loc>
     <lastmod>2019-11-26T00:27:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/</loc>
+    <lastmod>2019-12-01T15:28:49+09:00</lastmod>
   </url>
   
   <url>

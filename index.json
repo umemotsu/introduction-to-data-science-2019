@@ -1,10 +1,17 @@
 [
 {
+	"uri": "https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/lecture/",
+	"title": "講義",
+	"tags": [],
+	"description": "",
+	"content": " スライド   添付   slides.pdf  (10940 ko)    演習 GitHubリポジトリに、グラフデータの解析コードが置いてあります。\nアンケート Googleフォームでフィードバックをください。どんなことでも構いません。今回分だけでなく、担当回全体についての感想も頂けると、今後の機会に活かせるので大変ありがたいです。\n 内容が簡単すぎた／難しすぎた 説明が雑すぎた／細かすぎた どうでも良い話が多い あそこが分からなかった  担当回はこれで最後なので、質問があれば後日にQ\u0026amp;Aページで回答する予定です  …  "
+},
+{
 	"uri": "https://umemotsu.github.io/introduction-to-data-science-2019/",
 	"title": "データサイエンス概論（2019）",
 	"tags": [],
 	"description": "",
-	"content": " データサイエンス概論（2019） 授業概要 データサイエンスに関する近年の主要な研究成果を取り上げ、基本となる考え方から大規模データへの適用までを体系的に紹介し、具体的な課題に取り組みながら理解を深めさせる。\n達成目標 データサイエンスの基本となる考え方から大規模データへの適用までを体系的に紹介し、具体的な課題に取り組みながら理解を深める。\n担当回  高次元データ  第3回 高次元データを理解する 講義 スライド 添付 slides.pdf (5858 ko) 演習 GitHubリポジトリに、主成分分析、t-SNE、UMAPを用いた高次元データの解析コ\n 潜在変数  第6回 隠れた値を推定する 講義 スライド 添付 slides.pdf (29431 ko) 演習 GitHubリポジトリに、トピックモデルを用いた潜在変数の推定・分析のためのコードが置いて\n "
+	"content": " データサイエンス概論（2019） 授業概要 データサイエンスに関する近年の主要な研究成果を取り上げ、基本となる考え方から大規模データへの適用までを体系的に紹介し、具体的な課題に取り組みながら理解を深めさせる。\n達成目標 データサイエンスの基本となる考え方から大規模データへの適用までを体系的に紹介し、具体的な課題に取り組みながら理解を深める。\n担当回  高次元データ  第3回 高次元データを理解する 講義 スライド 添付 slides.pdf (5858 ko) 演習 GitHubリポジトリに、主成分分析、t-SNE、UMAPを用いた高次元データの解析コ\n 潜在変数  第6回 隠れた値を推定する 講義 スライド 添付 slides.pdf (29431 ko) 演習 GitHubリポジトリに、トピックモデルを用いた潜在変数の推定・分析のためのコードが置いて\n グラフデータ  第8回 グラフデータを分析する 講義 スライド 添付 slides.pdf (10940 ko) 演習 GitHubリポジトリに、グラフデータの解析コードが置いてあります。 アンケート Goog\n "
 },
 {
 	"uri": "https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/lecture/",
@@ -19,6 +26,13 @@
 	"tags": [],
 	"description": "",
 	"content": " スライド   添付   slides.pdf  (5858 ko)    演習 GitHubリポジトリに、主成分分析、t-SNE、UMAPを用いた高次元データの解析コードが置いてあります。\nアンケート Googleフォームでフィードバックをください。どんなことでも構いません。\n 内容が簡単すぎた／難しすぎた 説明が雑すぎた／細かすぎた どうでも良い話が多い あそこが分からなかった 次回にあの話をしてほしい …  "
+},
+{
+	"uri": "https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/qa/",
+	"title": "Q&amp;A",
+	"tags": [],
+	"description": "",
+	"content": "質問があれば後日にここで回答する予定です。\n"
 },
 {
 	"uri": "https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/qa/",
@@ -47,6 +61,13 @@
 	"tags": [],
 	"description": "",
 	"content": " 第6回 隠れた値を推定する  講義  スライド 添付 slides.pdf (29431 ko) 演習 GitHubリポジトリに、トピックモデルを用いた潜在変数の推定・分析のためのコードが置いてあります。 アンケート Goog\n Q\u0026amp;A  座学全般 最初の話のスピードが速すぎて追いつくのがつらい すみません。インタラプトがないと早口になりがちなので、追いつけなくなったら止めてくださ\n "
+},
+{
+	"uri": "https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/",
+	"title": "グラフデータ",
+	"tags": [],
+	"description": "",
+	"content": " 第8回 グラフデータを分析する  講義  スライド 添付 slides.pdf (10940 ko) 演習 GitHubリポジトリに、グラフデータの解析コードが置いてあります。 アンケート Googleフォームでフィードバックをく\n Q\u0026amp;A  質問があれば後日にここで回答する予定です。\n "
 },
 {
 	"uri": "https://umemotsu.github.io/introduction-to-data-science-2019/categories/",

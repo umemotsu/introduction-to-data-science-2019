@@ -13,6 +13,15 @@
     
     <item>
       <title>講義</title>
+      <link>https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/lecture/</link>
+      <pubDate>Sun, 01 Dec 2019 15:32:13 +0900</pubDate>
+      
+      <guid>https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/lecture/</guid>
+      <description>スライド 添付 slides.pdf (10940 ko) 演習 GitHubリポジトリに、グラフデータの解析コードが置いてあります。 アンケート Googleフォームでフィードバックをく</description>
+    </item>
+    
+    <item>
+      <title>講義</title>
       <link>https://umemotsu.github.io/introduction-to-data-science-2019/latent-variable/lecture/</link>
       <pubDate>Tue, 26 Nov 2019 02:01:40 +0900</pubDate>
       
@@ -27,6 +36,15 @@
       
       <guid>https://umemotsu.github.io/introduction-to-data-science-2019/high-dimensional-data/lecture/</guid>
       <description>スライド 添付 slides.pdf (5858 ko) 演習 GitHubリポジトリに、主成分分析、t-SNE、UMAPを用いた高次元データの解析コードが置いてあります。 アンケート</description>
+    </item>
+    
+    <item>
+      <title>Q&amp;A</title>
+      <link>https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/qa/</link>
+      <pubDate>Sun, 01 Dec 2019 16:01:08 +0900</pubDate>
+      
+      <guid>https://umemotsu.github.io/introduction-to-data-science-2019/graph-data/qa/</guid>
+      <description>質問があれば後日にここで回答する予定です。</description>
     </item>
     
     <item>
